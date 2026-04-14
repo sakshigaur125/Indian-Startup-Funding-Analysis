@@ -113,16 +113,16 @@ This page presents a simple funding outlook using the forecast file created in P
 ## Dashboard Preview
 
 ### Market Overview
-![Market Overview](images/Market-Overview.jpg)
+![Market Overview](images/market-overview.jpg)
 
 ### Sector Performance
-![Sector Performance](images/Sector-Performance.jpg)
+![Sector Performance](images/sector-performance.jpg)
 
 ### Risk & Volatility Analysis
-![Risk Analysis](images/Risk-Analysis.jpg)
+![Risk Analysis](images/risk-analysis.jpg)
 
 ### Predictive Analytics / Forecasting
-![Forecast Page](images/Forecast-Page.jpg)
+![Forecast Page](images/forecast-page.jpg)
 
 ## Key Insights
 - Funding activity was strongest in earlier peak periods and became weaker by 2020.
