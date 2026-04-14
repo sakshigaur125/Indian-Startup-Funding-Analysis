@@ -145,7 +145,7 @@ This page presents a simple funding outlook using the forecast file created in P
 ## Project Files Structure
 
 ```text
-indian-startup-funding-analysis/
+Indian-Startup-Funding-Analysis/
 │
 ├── data/
 │   ├── startup_funding_clean-1.xlsx
