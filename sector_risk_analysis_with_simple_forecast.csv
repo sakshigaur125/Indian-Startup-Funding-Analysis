@@ -1,7 +1,0 @@
-Sector,Latest NonZero Quarter,Latest NonZero Historical Funding,Predicted Funding USD,Forecast Growth Pct,Simple First Forecast,Simple Last Forecast,Simple Long Term Growth Pct,Simple Forecast Range Pct,Volatility STD,Coeff of Variation,Historical Growth Pct,Historical CAGR Pct,Recent Growth Pct,Zero Quarter Ratio,Risk Score,Risk Category,Risk Reason
-Ecommerce,2019Q1,226000000,37289722,-83.5,734921750,857805872.3,16.72,16.72,722254308.8,2.02,2160,32.77,352,0.4,9,High Risk,"forecast drop > 50%, high volatility, unstable funding pattern"
-Transportation,2020Q1,8048394,1039459736,12815.12,1305544131,2071280262,58.65,58.65,871874508,4.45,-6.24,-3.17,-99.79,0.85,6,Medium Risk,"high volatility, unstable funding pattern, many zero-funding quarters, negative recent momentum, negative historical trend, positive long-term forecast support"
-Consumer Internet,2018Q3,867971811,20216764,-97.67,507207311.3,937110555.6,84.76,84.76,337444559.5,1.08,45.17,3.8,141.03,0.45,5,Medium Risk,"forecast drop > 50%, many zero-funding quarters, positive long-term forecast support"
-Finance,2019Q4,5900000,27065079,358.73,75975000,256273810.9,237.31,237.31,183595056.1,1.87,-32.18,-2.94,-96.4,0.3,1,Low Risk,"negative recent momentum, negative historical trend, positive long-term forecast support"
-Technology,2019Q4,26000000,24930442,-4.11,39199650,153421842.2,291.39,291.39,128181035.8,1.15,-77.92,-11.83,766.67,0.35,0,Low Risk,"negative historical trend, positive long-term forecast support"
-,,,,,,,,,,,,,,,,,
