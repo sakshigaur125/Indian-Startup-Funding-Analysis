@@ -33,18 +33,18 @@ I used Python to clean the raw dataset by:
 - preparing a structured base dataset for reporting
 
 This step produced:
-- `startup_funding_clean-1.xlsx`
+- [Cleaned Dataset](data/startup_funding_clean-1.xlsx)
 
 ### 3. Data Transformation in Python
 After cleaning the raw data, I created the following files in Python:
 
-- `quarterly_funding_history.csv`  
+- [Quarterly Funding History](data/quarterly_funding_history.csv) 
   This file was created for quarterly trend analysis by sector.
 
-- `startup_sector_forecast.csv`  
+- [Sector Forecast](data/startup_sector_forecast.csv)
   This file contains sector-level predicted funding values for the next quarter.
 
-- `sector_risk_analysis_with_simple_forecast.csv`  
+- [Sector Risk Analysis](data/sector_risk_analysis_with_simple_forecast.csv)
   This file combines forecasting and risk analysis and includes:
   - predicted funding
   - forecast growth %
@@ -61,6 +61,7 @@ After cleaning the raw data, I created the following files in Python:
 ## Dashboard Building in Power BI
 Using the cleaned and transformed files, I created a 4-page interactive Power BI dashboard.
 
+
 In Power BI, I also:
 - built table relationships between the datasets
 - created DAX measures for KPI cards and dynamic calculations
@@ -68,6 +69,9 @@ In Power BI, I also:
 - created risk signal indicators and summary cards
 - designed slicers, filters, and interactive report navigation
 - formatted visuals to improve storytelling and readability
+
+## Power BI Report File
+[Download the Power BI Dashboard](Report/Indian_Startup_Funding_Dashboard.pbix)
 
 ## Dashboard Pages
 
@@ -113,16 +117,16 @@ This page presents a simple funding outlook using the forecast file created in P
 ## Dashboard Preview
 
 ### Market Overview
-![Market Overview](images/Market-Overview.png)
+![Market Overview](Images/market-overview.png)
 
 ### Sector Performance
-![Sector Performance](images/Sector-performance.png)
+![Sector Performance](Images/sector-performance.png)
 
 ### Risk & Volatility Analysis
-![Risk Analysis](images/Risk-Analysis.png)
+![Risk Analysis](Images/risk-analysis.png)
 
 ### Predictive Analytics / Forecasting
-![Forecast Page](images/Forecast-Page.png)
+![Forecast Page](Images/forecast-page.png)
 
 ## Key Insights
 - Funding activity was strongest in earlier peak periods and became weaker by 2020.
@@ -133,10 +137,10 @@ This page presents a simple funding outlook using the forecast file created in P
 - The forecast results are useful for directional analysis, not as exact investment advice.
 
 ## Files Used in Power BI
-- `startup_funding_clean-1.xlsx`
-- `quarterly_funding_history.csv`
-- `sector_risk_analysis_with_simple_forecast.csv`
-- `startup_sector_forecast.csv`
+[Cleaned Dataset](data/startup_funding_clean-1.xlsx)
+[Quarterly Funding History](data/quarterly_funding_history.csv)
+[Sector Risk Analysis](data/sector_risk_analysis_with_simple_forecast.csv)
+[Sector Forecast](data/startup_sector_forecast.csv)
 
 ## Project Files Structure
 
