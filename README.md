@@ -150,10 +150,10 @@ indian-startup-funding-analysis/
 │   └── startup_sector_forecast.csv
 │
 ├── images/
-│   ├── market-overview.jpg
-│   ├── sector-performance.jpg
-│   ├── risk-analysis.jpg
-│   └── forecast-page.jpg
+│   ├── market-overview.png
+│   ├── sector-performance.png
+│   ├── risk-analysis.png
+│   └── forecast-page.png
 │
 └── report/
     └── Indian_Startup_Funding_Dashboard.pbix
