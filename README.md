@@ -5,7 +5,32 @@ This project analyzes Indian startup funding trends from 2015 to 2020 using Pyth
 
 I started by downloading the raw dataset from Kaggle. After that, I used Python to clean the raw data, handle missing values, standardize important fields, and prepare a structured dataset for analysis. Then I used Python again to create quarterly funding history, risk analysis, and simple forecast files. Finally, I used these processed files to build a 4-page Power BI dashboard.
 
-The main goal of this project was to understand funding patterns, compare sector performance, measure sector risk, and create a simple predictive funding outlook.
+### What This Project Can Do
+This project analyzes startup funding data, compares sectors, shows risk levels, and gives a simple future funding outlook. It can also help users see which sectors are growing, which are unstable, and which look safer for investment.
+
+### How It Helps
+It helps people turn raw funding data into clear business insights. Instead of looking at messy numbers, they can see trends, risk signals, and forecasts in an easy dashboard.
+
+### Who It Helps
+This project can help:
+- **Investors** to understand which sectors may be risky or promising.
+- **Founders** to see how their sector is performing.
+- **Analysts** to explore funding trends and build reports.
+- **Students and job seekers** to show practical Python and Power BI skills.
+
+### Why It Is Important
+This project is important because startup funding data is often messy and hard to understand. By cleaning, analyzing, and visualizing it, the project makes the data useful for decision-making. It also shows real-world skills like data cleaning, DAX, forecasting, and dashboard design.
+This project shows my full end-to-end workflow:
+
+**Raw data → Python cleaning → Python analysis and forecasting → Power BI dashboard**
+
+It also shows both technical and analytical thinking through:
+- data preparation
+- trend analysis
+- sector comparison
+- risk assessment
+- simple forecasting
+- dashboard storytelling
 
 ## Data Source
 - Kaggle Indian Startup Funding Dataset
@@ -60,7 +85,7 @@ After cleaning the raw data, I created the following files in Python:
 
 ## Dashboard Building in Power BI
 Using the cleaned and transformed files, I created a 4-page interactive Power BI dashboard.
-
+[Download the Power BI Dashboard](Report/Indian_Startup_Funding_Intelligence_Dashboard.pbix)
 
 In Power BI, I also:
 - built table relationships between the datasets
@@ -69,9 +94,6 @@ In Power BI, I also:
 - created risk signal indicators and summary cards
 - designed slicers, filters, and interactive report navigation
 - formatted visuals to improve storytelling and readability
-
-## Power BI Report File
-[Download the Power BI Dashboard](Report/Indian_Startup_Funding_Intelligence_Dashboard.pbix)
 
 ## Dashboard Pages
 
@@ -85,6 +107,7 @@ This page gives a high-level summary of the startup funding landscape.
 - Quarterly funding trend
 - Geographic funding distribution
 - Investment type breakdown
+![Market Overview](Images/market_overview.png)
 
 ### 2. Sector Performance
 This page compares sectors based on funding scale, historical growth, and market momentum.
@@ -94,6 +117,7 @@ This page compares sectors based on funding scale, historical growth, and market
 - Growth matrix
 - Sector momentum analysis
 - Sub-vertical funding composition
+![Sector Performance](Images/sector_performance.png)
 
 ### 3. Risk & Volatility Analysis
 This page focuses on sector-level risk using Python-generated risk metrics.
@@ -103,6 +127,7 @@ This page focuses on sector-level risk using Python-generated risk metrics.
 - Risk category
 - Risk reason
 - Volatility-based breakdown
+![Risk Analysis](Images/risk_analysis.png)
 
 ### 4. Predictive Analytics / Forecasting
 This page presents a simple funding outlook using the forecast file created in Python.
@@ -113,19 +138,6 @@ This page presents a simple funding outlook using the forecast file created in P
 - Investment safety signal
 - Predicted funding by sector
 - Forecast-based risk explanation
-
-## Dashboard Preview
-
-### Market Overview
-![Market Overview](Images/market_overview.png)
-
-### Sector Performance
-![Sector Performance](Images/sector_performance.png)
-
-### Risk & Volatility Analysis
-![Risk Analysis](Images/risk_analysis.png)
-
-### Predictive Analytics / Forecasting
 ![Forecast Page](Images/forecast_page.png)
 
 ## Key Insights
@@ -142,27 +154,6 @@ This page presents a simple funding outlook using the forecast file created in P
 - [Sector Risk Analysis](data/sector_risk_analysis_with_simple_forecast.csv)
 - [Sector Forecast](data/startup_sector_forecast.csv)
 
-## Project Files Structure
-
-```text
-Indian-Startup-Funding-Analysis/
-│
-├── data/
-│   ├── startup_funding_clean-1.xlsx
-│   ├── quarterly_funding_history.csv
-│   ├── sector_risk_analysis_with_simple_forecast.csv
-│   └── startup_sector_forecast.csv
-│
-├── Images/
-│   ├── market_overview.png
-│   ├── sector_performance.png
-│   ├── risk_analysis.png
-│   └── forecast_page.png
-│
-└── Report/
-    └── Indian_Startup_Funding_Intelligence_Dashboard.pbix
-```
-
 ## What I Learned
 Through this project, I practiced:
 - cleaning real-world raw data in Python
@@ -175,18 +166,6 @@ Through this project, I practiced:
 - designing a business-focused interactive dashboard
 - turning raw data into clear visual storytelling
 
-## Why This Project Matters
-This project shows my full end-to-end workflow:
-
-**Raw data → Python cleaning → Python analysis and forecasting → Power BI dashboard**
-
-It also shows both technical and analytical thinking through:
-- data preparation
-- trend analysis
-- sector comparison
-- risk assessment
-- simple forecasting
-- dashboard storytelling
 
 ## Final Note
 This project was built as a portfolio project to demonstrate practical skills in Python, data analysis, and Power BI using a real indian startup funding dataset.
